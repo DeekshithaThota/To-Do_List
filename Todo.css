@@ -1,0 +1,47 @@
+ul{list-style-type: none;}
+/* input{
+    left: 200px;
+} */
+/* h1{
+    position:relative;
+    left: 600px;
+} */
+.body{
+    position:fixed;
+    background-color:rgb(181, 242, 242);
+    padding: 250px;
+    left: 400px;
+    border-radius: 300px;
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+input[type=text]{
+    width:300px;
+    height: 30px;
+    border-radius: 10px;
+}
+button[type=button]{
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;   
+}
+button:hover{
+    background-color: rgb(57, 56, 56);
+}
+input[type=checkbox]{
+    appearance: none;
+    border: 0.15em solid currentColor;
+    border-radius: 20px;
+    margin: 0;
+    background-color: #fff;
+    width: 1.15em;
+    height: 1.15em;
+    /* padding-left: 200px; */
+    position:absolute;
+    right: 320px;
+}
+
+input[type=checkbox]:hover{
+    box-shadow: inset 1em 1em black;
+}
